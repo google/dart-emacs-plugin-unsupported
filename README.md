@@ -2,11 +2,11 @@
 
 ## Overview
 
-Dart support for EMACS.
+Dart support for EMACS. (not officially supported).
 
 ## Development status
 
-This project is a work in progress.  It is based on the dart-mode.el
+This code is based on the dart-mode.el
 that was previously hosted in the Dart repository
 (https://code.google.com/p/dart/source/browse/#svn%2Fbranches%2Fbleeding_edge%2Fdart),
 at tools/utils/elisp/dart-mode.el.
