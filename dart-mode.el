@@ -27,6 +27,11 @@
 ;;; Code:
 
 (require 'cc-mode)
+;; There is a bug in cc-mode, emacs 24.4; for that version require cl.
+;; http://debbugs.gnu.org/cgi/bugreport.cgi?bug=18845
+(eval-when-compile
+  (if (and (= emacs-major-version 24) (= emacs-minor-version 4))
+      (require 'cl)))
 (require 'compile)
 
 ;; These are only required at compile time to get the sources for the
