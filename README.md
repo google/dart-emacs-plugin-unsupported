@@ -2,9 +2,13 @@
 
 ## Overview
 
-Dart support for EMACS. (not officially supported).
+Dart mode for Emacs.
 
 ## Development status
+
+Not officially supported.
+
+## History
 
 This code is based on the dart-mode.el
 that was previously hosted in the Dart repository
