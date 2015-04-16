@@ -6,7 +6,8 @@ Dart mode for Emacs.
 
 ## Development status
 
-Not officially supported.
+Not officially supported. You may instead want to check out
+this [dart mode for emacs](https://github.com/nex3/dart-mode).
 
 ## History
 
